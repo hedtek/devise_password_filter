@@ -7,7 +7,7 @@ module Devise
 
           def password_not_common
             if Rails.application.config.filter_passwords.include?(password)
-              self.errors.add_to_base("This password is on a list of commonly used ones. Please choose another password.")
+              self.errors.add(:password, "This password is on a list of commonly used ones. Please choose another password.")
             end
           end
         end
