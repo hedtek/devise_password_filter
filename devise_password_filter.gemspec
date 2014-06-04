@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   The code was obtained prior to this from LiquidBronze, full provenence is unknown.
   The code was distributed under MIT licence
   DESC
-  s.licences = ["MIT"]
+  s.licenses = ["MIT"]
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
