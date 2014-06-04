@@ -7,11 +7,16 @@ require "devise_password_filter/version"
 Gem::Specification.new do |s|
   s.name        = "devise_password_filter"
   s.version     = DevisePasswordFilter::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of DevisePasswordFilter."
-  s.description = "TODO: Description of DevisePasswordFilter."
+  s.authors     = ["Hedtek", "Liquid Bronze"]
+  s.email       = ["gems@hedtek.com"]
+  s.homepage    = "https://github.com/hedtek/devise_password_filter"
+  s.summary     = "Password filtering for devise to prevent common passwords"
+  s.description = <<-DESC
+  This project was packaged up into a ruby 3+ gem by Hedtek.
+  The code was obtained prior to this from LiquidBronze, full provenence is unknown.
+  The code was distributed under MIT licence
+  DESC
+  s.licences = ["MIT"]
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

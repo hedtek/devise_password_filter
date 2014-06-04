@@ -1,3 +1,6 @@
 = DevisePasswordFilter
 
 This project rocks and uses MIT-LICENSE.
+
+This project was packaged up into a ruby 3+ gem by Hedtek.
+The code was obtained prior to this from LiquidBronze, full provenence is unknown
